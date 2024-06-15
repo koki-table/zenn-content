@@ -83,7 +83,7 @@ Next.js の Full Route Cache は、特定のルートに対する完全なキャ
 - ナビゲーションの間に全ページをリロードする必要がなく、React の状態とブラウザの状態が保持されます
   :::
 
-### Router Cache と Full Route Cache の違い（公式に同様の疑問記載してたので、そのまま記載）
+### Router Cache と Full Route Cache の違い（公式に記載があったので、そのまま書きます）
 
 Router Cache は、ユーザーセッションの間、React Server Component Payload をブラウザに一時的に保存するのに対し、Full Route Cache は、複数のユーザーリクエストにわたって React Server Component Payload と HTML をサーバーに永続的に保存します。
 
