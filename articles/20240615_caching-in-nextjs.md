@@ -6,8 +6,6 @@ topics: ["Nextjs", "React"]
 published: false
 ---
 
-### 前提
-
 Next.js の 4 種類のキャッシュについて、下記公式ドキュメントを参照しながら、疑問を解消していきます。
 
 https://nextjs.org/docs/app/building-your-application/caching
