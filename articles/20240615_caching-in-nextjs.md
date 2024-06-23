@@ -62,8 +62,8 @@ Next.js の Request Memoization は、同じリクエストが複数回送信さ
 
 ### 疑問点 🤔 : Full Route Cache は、Client Components を使っている場合でも機能するのか
 
+機能はするが、Client Components か ServerComponents は関係ない。
 Full Route Cache は、静的な API に対する Cache を提供する。
-Client Components か ServerComponents は関係ない。
 
 AppRouter の推奨としては、API を叩くのは ServerComponents に寄せることになるはずな為、結果的には ServerComponents の 静的な Route(API) のリクエストに対して Cache が有効になる。
 
